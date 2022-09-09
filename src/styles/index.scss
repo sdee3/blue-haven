@@ -13,13 +13,14 @@ body {
 	&__heading {
 		background-image: url("../images/head-bg.jpg");
 		height: 100%;
+		width: 100%;
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: 50% 50%;
+		position: relative;
 
 		&-title-img {
 			background-color: transparent;
-			background-position: 50% 50%;
 			object-fit: contain;
 			display: block;
 			width: 80vw;
