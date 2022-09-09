@@ -3,7 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Blue Haven`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://yourbluehaven.com`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
@@ -12,7 +12,7 @@ const config: GatsbyConfig = {
   plugins: ["gatsby-plugin-sass", {
     resolve: 'gatsby-plugin-google-analytics',
     options: {
-      "trackingId": "123"
+      "trackingId": "G-LRM2WR3R6E"
     }
   }, "gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
