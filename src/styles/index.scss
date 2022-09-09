@@ -22,7 +22,7 @@ body {
 		&-title-img {
 			background-color: transparent;
 			object-fit: contain;
-			display: block;
+			display: block !important;
 			width: 80vw;
 			height: 400px;
 			user-select: none;
