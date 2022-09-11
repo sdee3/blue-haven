@@ -7,6 +7,7 @@ const IndexPage = () => {
   return (
     <main className="main">
       <section className="main__heading">
+        {/* TODO: Remove spacing up and down from the text itself */}
         <StaticImage
           className="main__heading-title-img"
           alt="Blue Haven logo"
