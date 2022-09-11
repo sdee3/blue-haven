@@ -1,38 +1,51 @@
 @import "~normalize.css";
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import "./responsive.scss";
+@import "./utils.scss";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
 body {
-	background-color: #333;
-	color: #cdcdcd;
-	font-family: Lato, sans-serif;
+  background-color: #333;
+  color: #cdcdcd;
+  font-family: Lato, sans-serif;
 }
 
 .main {
-	height: 80vh;
+  height: 80vh;
 
-	&__heading {
-		background-image: url("../images/head-bg.jpg");
-		height: 100%;
-		width: 100%;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: 50% 50%;
-		position: relative;
+  &__heading {
+    background-image: url("../images/head-bg.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+    text-align: center;
 
-		&-title-img {
-			background-color: transparent;
-			object-fit: contain;
-			display: block !important;
-			width: 80vw;
-			height: 400px;
-			user-select: none;
-			margin: 0 auto;
-			z-index: 100;
-		}
-	}
+    &-title-img {
+      background-color: transparent;
+      object-fit: contain;
+      display: block !important;
+      width: 80vw;
+      height: 300px;
+      user-select: none;
+      margin: 0 auto;
+      z-index: 100;
+    }
+  }
 }
 
-.container {
-	margin-left: 16px;
-	margin-right: 16px;
+.how-why {
+  &__container {
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    @media (min-width: 768px) {
+      display: flex;
+      align-items: flex-start;
+      gap: 64px;
+      margin-top: 64px;
+      margin-bottom: 64px;
+    }
+  }
 }
