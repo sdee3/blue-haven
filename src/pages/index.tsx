@@ -5,17 +5,19 @@ import "../styles/index.scss";
 
 const IndexPage = () => {
   return (
+    <>
     <main className="main">
       <section className="main__heading">
-        {/* TODO: Remove spacing up and down from the text itself */}
-        <StaticImage
-          className="main__heading-title-img"
-          alt="Blue Haven logo"
-          src={"../images/blue_haven_white.png"}
-          objectFit="contain"
-        />
+        <div className="main__heading-container">
+          <StaticImage
+            className="main__heading-title-img"
+            alt="Blue Haven logo"
+            src={"../images/blue_haven_white.png"}
+            objectFit="contain"
+          />
 
-        <h1>Astrology Purpose Overview & Breakthrough Coaching</h1>
+          <h1>Astrology Purpose Overview &amp; Breakthrough Coaching</h1>
+        </div>
       </section>
 
       <section className="container">
@@ -83,26 +85,26 @@ const IndexPage = () => {
               their life's mission, giving each client full support and care
               throughout the process. It was this partnership with Kine that
               enabled him to get his feet in the water in the professional
-              astrology realm. His astrology overview services include short or
-              long detailed forms, are wide, and available for anyone with at
-              least basic astrology knowledge. Therefore, Stefan's astrology
-              services are split into:
+              astrology realm.
             </p>
+            <p>His astrology overview services are split into:</p>
             <ul>
               <li>
-                <strong>Short Natal Chart reading - 1-2 pages</strong>
+                <p><strong>Short Natal Chart reading - 1-2 pages</strong></p>
               </li>
               <li>
-                <strong>Long Natal Chart reading - 3-4 pages</strong>
+                <p><strong>Long Natal Chart reading - 3-4 pages</strong></p>
               </li>
               <li>
-                <strong>Personal Monthly overview</strong>
+                <p><strong>Personal Monthly overview</strong></p>
               </li>
               <li>
+                <p>
                 <strong>
                   “What's Ahead For Me” report, including a special 3-card Tarot
                   reading
                 </strong>
+                </p>
               </li>
             </ul>
           </div>
@@ -112,37 +114,57 @@ const IndexPage = () => {
             <h3>Kine</h3>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              dolor perferendis animi quam voluptatem rerum explicabo sequi! Id
-              minus perspiciatis facere placeat obcaecati distinctio ipsa,
-              repellat, eos totam molestiae alias! Beatae quasi odio corporis
-              adipisci eos, quas, illo illum, ea autem provident maiores cum
-              laudantium numquam doloremque recusandae? Reprehenderit
-              exercitationem aspernatur sit nihil, eos voluptatem repudiandae
-              quam odit tempora sint veniam laborum ab dolore. Suscipit natus
-              magnam, dolorem doloribus repellendus esse amet voluptas
-              architecto harum eligendi iusto voluptatem in? Non eveniet quasi
-              modi deserunt, culpa suscipit commodi repudiandae dolores odio
-              libero. Debitis quod voluptate quidem placeat sed. Deleniti, ut
-              facere.
+             A Breakthrough Coach that cheers you all the way. Kine helps people resolve mental and emotional blockages. In her comprehensive approach we heal and release the anchors of the past, train the brain and the nervous system to enjoy the present moment and work intelligently and creatively to reach goals of the future.
             </p>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              facilis iste quae beatae facere minima, similique, cupiditate
-              velit veritatis expedita unde hic quisquam eum! Ad consequatur
-              quae rerum ullam suscipit repellat tenetur facilis laudantium
-              perspiciatis quasi quidem, minima facere soluta consectetur modi
-              at tempore excepturi illo repellendus error cumque deserunt! A
-              unde mollitia natus, dolorem nam quam iusto nulla debitis enim
-              aliquid vero quo sequi beatae placeat ducimus voluptatum
-              praesentium earum ipsum. Ut autem accusamus officia provident
-              velit adipisci quos nemo qui, a, possimus dolorem!
+              In all of Kine's Life Coaching Programs, you work on topics like:
             </p>
+
+            <ul>
+              <li>
+                  <p>Designing Life Around Your&nbsp;<strong>Values &amp; Goals</strong>&nbsp;</p>
+              </li>
+              <li>
+                  <p>Making Dreams Into Reality&nbsp;<strong>Action Plan</strong></p>
+              </li>
+              <li>
+                  <p>Tools To Boost Your Innate&nbsp;<strong>Strengths</strong></p>
+              </li>
+              <li>
+                  <p>Communication In&nbsp;<strong>Relationships</strong></p>
+              </li>
+              <li>
+                  <p>Level up your&nbsp;<strong>Wellness Routines</strong></p>
+              </li>
+              <li>
+                  <p>Accessing Your&nbsp;<strong>Flow State</strong></p>
+              </li>
+              <li>
+                  <p>Facing Fears &amp;&nbsp;<strong>Anxieties</strong></p>
+              </li>
+              <li>
+                  <p>Tuning Into Your <strong>Purpose</strong></p>
+              </li>
+              <li>
+                  <p>Getting What You <strong>Desire</strong></p>
+              </li>
+              <li>
+                  <p>Living your <strong>Joy</strong></p>
+              </li>
+            </ul>
+            <p>Kine walks the way with you and supports you emotionally and pragmatically. She helps you understand The Astrology Overview to make the most of your life. You get a clearer understanding about the reasons for your challenges and how to solve them. Working through the challenges, emotions and inhibiting beliefs is therefore much easier. You level up your life each week of the Coaching Program with her.</p>
           </div>
         </div>
       </section>
+      
+      <footer className="footer">
+        <div className="container">
+          <p>Copyright &copy; 2022 Blue Haven. All rights reserved.</p>
+        </div>
+      </footer>
     </main>
+    </>
   );
 };
 

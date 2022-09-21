@@ -22,15 +22,22 @@ body {
     position: relative;
     text-align: center;
 
+    &-container {
+      padding-top: 20vh;
+    }
+
     &-title-img {
       background-color: transparent;
       object-fit: contain;
       display: block !important;
-      width: 80vw;
-      height: 300px;
-      user-select: none;
       margin: 0 auto;
+      user-select: none;
       z-index: 100;
+      width: 80vw;
+
+      @media (min-width: 768px) {
+        width: 50vw;
+      }
     }
   }
 }
@@ -48,4 +55,9 @@ body {
       margin-bottom: 64px;
     }
   }
+}
+
+.footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
