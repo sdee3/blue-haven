@@ -17,23 +17,23 @@ export default function RootLayout({ children }: { children: React.ReactNode }):
           content="Astrology Purpose Overview and Breakthrough Coaching. Change your life and find your purpose!"
         />
         <meta name="robots" content="index, follow" />
+      </head>
+      <body>{children}</body>
 
-        {/* <!-- Google tag (gtag.js) --> */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-LRM2WR3R6E"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
+      {/* <!-- Google tag (gtag.js) --> */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-LRM2WR3R6E"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'G-LRM2WR3R6E');
         `}
-        </Script>
-      </head>
-      <body>{children}</body>
+      </Script>
     </html>
   )
 }
