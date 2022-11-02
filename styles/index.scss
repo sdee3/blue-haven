@@ -1,0 +1,61 @@
+@import '~normalize.css';
+@import './responsive.scss';
+@import './utils.scss';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+  background-color: #333;
+  color: #cdcdcd;
+  font-family: Lato, sans-serif;
+}
+
+.main {
+  &__heading {
+    background-image: url('/images/head-bg.jpg');
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+    text-align: center;
+
+    &-container {
+      padding-top: 20vh;
+    }
+
+    &-title-img {
+      background-color: transparent;
+      object-fit: contain;
+      display: block !important;
+      margin: 0 auto;
+      user-select: none;
+      z-index: 100;
+      width: 80vw;
+
+      @media (min-width: 768px) {
+        width: 50vw;
+      }
+    }
+  }
+}
+
+.how-why {
+  &__container {
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    @media (min-width: 768px) {
+      display: flex;
+      align-items: flex-start;
+      gap: 64px;
+      margin-top: 64px;
+      margin-bottom: 64px;
+    }
+  }
+}
+
+.footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
