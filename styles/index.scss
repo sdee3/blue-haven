@@ -1,12 +1,10 @@
 @import '~normalize.css';
 @import './responsive.scss';
 @import './utils.scss';
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 body {
   background-color: #333;
   color: #cdcdcd;
-  font-family: Lato, sans-serif;
 }
 
 .main {

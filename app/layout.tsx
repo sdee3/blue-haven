@@ -1,9 +1,13 @@
-import '../styles/index.scss'
+import { Lato } from '@next/font/google'
 import Script from 'next/script'
+
+import '../styles/index.scss'
+
+const lato = Lato({ weight: ['300', '400', '700'] })
 
 export default function RootLayout({ children }: { children: React.ReactNode }): JSX.Element {
   return (
-    <html lang="en">
+    <html lang="en" className={lato.className}>
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,6 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }):
           content="Astrology Purpose Overview and Breakthrough Coaching. Change your life and find your purpose!"
         />
         <meta name="robots" content="index, follow" />
+
         {/* <!-- Google tag (gtag.js) --> */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-LRM2WR3R6E"
