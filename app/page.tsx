@@ -1,25 +1,9 @@
 import Image from 'next/image'
+import { getArticles } from '../utils'
 import Footer from './Footer'
-import { createClient } from 'next-sanity'
-import { Article } from '../types'
-
-const client = createClient({
-  projectId: 'qung8owu',
-  dataset: 'production',
-  apiVersion: '2022-11-02',
-  useCdn: false
-})
-
-const getArticles = async (): Promise<Article[]> => {
-  const result = await client.fetch('*[_type=="article"]')
-
-  return result
-}
 
 const HomePage = async (): Promise<JSX.Element> => {
   const articles = await getArticles()
-
-  console.log(articles)
 
   return (
     <>
@@ -201,12 +185,14 @@ const HomePage = async (): Promise<JSX.Element> => {
             </div>
           </div>
         </section>
-      </main>
 
-      <h2>Latest Articles</h2>
-      {articles.map((a) => (
-        <p key={a._id}>{a._createdAt}</p>
-      ))}
+        <section className="container">
+          <h2>Latest Articles</h2>
+          {articles.map((a) => (
+            <p key={a._id}>{a.title}</p>
+          ))}
+        </section>
+      </main>
       <Footer />
     </>
   )

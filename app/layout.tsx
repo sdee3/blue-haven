@@ -3,7 +3,7 @@ import Script from 'next/script'
 
 import '../styles/index.scss'
 
-const lato = Lato({ weight: ['300', '400', '700'] })
+const lato = Lato({ weight: ['300', '400', '700'], subsets: ['latin'] })
 
 export default function RootLayout({ children }: { children: React.ReactNode }): JSX.Element {
   return (
