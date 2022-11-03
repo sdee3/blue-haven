@@ -20,7 +20,7 @@ export default {
     },
     {
       name: 'content',
-      type: 'string',
+      type: 'markdown',
       title: 'Content'
     }
   ]
