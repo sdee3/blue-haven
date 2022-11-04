@@ -9,20 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "^13.0.1",
+    "@next/font": "^13.0.2",
     "@types/node": "18.11.9",
     "@types/react": "18.0.24",
     "@types/react-dom": "18.0.8",
-    "eslint-config-next": "^13.0.1",
-    "next": "^13.0.1",
+    "eslint-config-next": "^13.0.2",
+    "next": "^13.0.2",
     "next-sanity": "^1.0.3",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.55.0"
+    "sass": "^1.56.0"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.28.4-appdir.0",
+    "@netlify/plugin-nextjs": "^4.28.4",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "eslint": "^8.26.0",
     "eslint-config-standard-with-typescript": "^23.0.0",
