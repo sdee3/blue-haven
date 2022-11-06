@@ -13,3 +13,9 @@ export const getArticles = async (): Promise<Article[]> => {
 
   return result
 }
+
+export const getArticle = async (slug: string): Promise<Article> => {
+  const result = await client.fetch(`*[_type=="article" && slug=="${slug}"]`)
+
+  return result[0]
+}

@@ -6,4 +6,5 @@ export interface Article {
   content: string
   description: string
   title: string
+  slug: string
 }

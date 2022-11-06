@@ -1,10 +1,7 @@
 import Image from 'next/image'
-import { getArticles } from '../utils'
-import Footer from './Footer'
+import { Articles, Footer } from '../components'
 
-const HomePage = async (): Promise<JSX.Element> => {
-  const articles = await getArticles()
-
+export default async function HomePage() {
   return (
     <>
       <main className="main">
@@ -186,16 +183,9 @@ const HomePage = async (): Promise<JSX.Element> => {
           </div>
         </section>
 
-        <section className="container">
-          <h2>Latest Articles</h2>
-          {articles.map((a) => (
-            <p key={a._id}>{a.title}</p>
-          ))}
-        </section>
+        <Articles />
       </main>
       <Footer />
     </>
   )
 }
-
-export default HomePage

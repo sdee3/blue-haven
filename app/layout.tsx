@@ -1,5 +1,6 @@
 import { Lato } from '@next/font/google'
 import Script from 'next/script'
+import { Navbar } from '../components'
 
 import '../styles/index.scss'
 
@@ -18,7 +19,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }):
         />
         <meta name="robots" content="index, follow" />
       </head>
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
 
       {/* <!-- Google tag (gtag.js) --> */}
       <Script
