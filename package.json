@@ -23,7 +23,7 @@
     "showdown": "^2.1.0"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^4.28.4",
+    "@netlify/plugin-nextjs": "^4.28.4-appdir.0",
     "@types/react": "^18.0.25",
     "@types/showdown": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
