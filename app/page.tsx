@@ -1,5 +1,6 @@
 import Image from 'next/image'
-import { Articles, Footer } from '../components'
+import Link from 'next/link'
+import { Footer } from '../components'
 
 export default async function HomePage() {
   return (
@@ -183,7 +184,9 @@ export default async function HomePage() {
           </div>
         </section>
 
-        <Articles />
+        <Link href="/blog">
+          <button>Blog</button>
+        </Link>
       </main>
       <Footer />
     </>
