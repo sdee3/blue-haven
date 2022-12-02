@@ -31,7 +31,7 @@ export default async function HomePage() {
 
           <div className="how-why__container">
             <div className="how-why__item">
-              <h3>Becoming Your Higher Self</h3>
+              <h3>Aligning With Your Higher Self</h3>
               <p>
                 It is without doubt that we all wish to aim towards the sky with our ambitions, but
                 for many people, it represents an unreachable point. What if your breakthrough
@@ -53,7 +53,8 @@ export default async function HomePage() {
               </p>
               <p>
                 Our astrology purpose reports show you just how much you have going on in your life,
-                as well as what your past experiences might indicate.
+                as well as what your past experiences might indicate - basically what's written in
+                the stars for you.
               </p>
             </div>
           </div>
@@ -79,7 +80,8 @@ export default async function HomePage() {
                 Stefan's purpose is to help familiarize and steer others towards their life's
                 mission, giving each client full support and care throughout the process. It was
                 this partnership with Kine that enabled him to get his feet in the water in the
-                professional astrology realm.
+                professional astrology realm. His astrology services include short or long detailed
+                overviews for anyone interested in astrology.
               </p>
               <p>His astrology overview services are split into:</p>
               <ul>
@@ -100,9 +102,12 @@ export default async function HomePage() {
                 </li>
                 <li>
                   <p>
-                    <strong>
-                      “What's Ahead For Me” report, including a special 3-card Tarot reading
-                    </strong>
+                    <strong>“What's Ahead For Me” report, including a special Tarot reading</strong>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Tarot reading based on any type of personal question or problem</strong>
                   </p>
                 </li>
               </ul>
@@ -113,66 +118,93 @@ export default async function HomePage() {
               <h3>Kine</h3>
 
               <p>
-                A Breakthrough Coach that cheers you all the way. Kine helps people resolve mental
-                and emotional blockages. In her comprehensive approach we heal and release the
-                anchors of the past, train the brain and the nervous system to enjoy the present
-                moment and work intelligently and creatively to reach goals of the future.
+                A Breakthrough Coach that helps heal the root cause of the problem, while cheering
+                you all the way to Your Personal Breakthroughs. Kine works directly and
+                intelligently in the three crucial tenses:
               </p>
 
-              <p>In all of Kine's Life Coaching Programs, you work on topics like:</p>
+              <p>
+                <u>Your Past</u>: In her comprehensive and holistic programs she helps you resolve
+                the emotional blockages and old thought patterns, so you finally release the anchors
+                of the past. This propels you forward at rocket speed.
+              </p>
+
+              <p>
+                <u>Your Present</u>: The program rewires your brain and nervous system to calm down.
+                This means you enjoy your life. It also means that you are present for yourself, the
+                people you love and your purpose.
+              </p>
+
+              <p>
+                <u>Your Future</u>: Through pragmatic, intelligent goal setting and implementation
+                of pleasurable, focused action - you will reach your goals. Kine helps you recognize
+                and enhance your talents, needs and desires. She also includes spiritual
+                manifestation techniques, visualization, feng shui and other energy work to speed up
+                the process.
+              </p>
+
+              <p>
+                This approach can launch you into your unique zone of genius and access your genuine
+                life purpose.
+              </p>
+
+              <h4>The Breakthrough - Life Coaching Programs:</h4>
 
               <ul>
                 <li>
-                  <p>
-                    Designing Life Around Your&nbsp;<strong>Values &amp; Goals</strong>&nbsp;
-                  </p>
+                  <strong>Limitless Life 7 Week Program 399 EUR</strong>
                 </li>
                 <li>
-                  <p>
-                    Making Dreams Into Reality&nbsp;<strong>Action Plan</strong>
-                  </p>
+                  <strong>How To Decrease Stress - in a single session</strong>
                 </li>
                 <li>
-                  <p>
-                    Tools To Boost Your Innate&nbsp;<strong>Strengths</strong>
-                  </p>
+                  <strong>From Stress Life To Zen Life - 3 months</strong>
                 </li>
                 <li>
-                  <p>
-                    Communication In&nbsp;<strong>Relationships</strong>
-                  </p>
+                  <strong>From Social Anxiety To Confidence - 3 months</strong>
                 </li>
                 <li>
-                  <p>
-                    Level up your&nbsp;<strong>Wellness Routines</strong>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Accessing Your&nbsp;<strong>Flow State</strong>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Facing Fears &amp;&nbsp;<strong>Anxieties</strong>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Tuning Into Your <strong>Purpose</strong>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Getting What You <strong>Desire</strong>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    Living your <strong>Joy</strong>
-                  </p>
+                  <strong>Manifest A Love Partner - 3 months</strong> (Disclosure - Kine is
+                  confident her clients can manifest a love partner within this timeframe, but in
+                  cases where it doesn't happen - 1 free month of weekly coaching is included after
+                  this program.)
                 </li>
               </ul>
+
+              <p>
+                <strong>Other programs:</strong>
+              </p>
+
+              <ul>
+                <li>
+                  Make Dreams Into Reality With <strong>Accountability</strong>
+                </li>
+                <li>
+                  Level up your Wellness Routine + <strong>Lifestyle</strong>
+                </li>
+                <li>
+                  Design Life Around Your Values + <strong>Goals</strong>
+                </li>
+                <li>
+                  Better Communication In <strong>Relationships</strong>
+                </li>
+                <li>
+                  Boost Your Innate <strong>Strengths</strong>
+                </li>
+                <li>
+                  Face Trauma & <strong>Anxieties</strong>
+                </li>
+                <li>
+                  Access Your Flow <strong>State</strong>
+                </li>
+                <li>
+                  Showcase Your <strong>Talents</strong>
+                </li>
+                <li>
+                  Find your <strong>Purpose</strong>
+                </li>
+              </ul>
+
               <p>
                 Kine walks the way with you and supports you emotionally and pragmatically. She
                 helps you understand The Astrology Overview to make the most of your life. You get a
@@ -184,9 +216,21 @@ export default async function HomePage() {
           </div>
         </section>
 
-        <Link href="/blog">
-          <button>Blog</button>
-        </Link>
+        <section className="container">
+          <h2>Our Blog</h2>
+          <Link href="/blog">
+            <button>Click here to see our full blog</button>
+          </Link>
+        </section>
+
+        <section className="container">
+          <h2>Contact</h2>
+
+          <p>
+            Reach out to us at{' '}
+            <Link href="mailto:hello@yourbluehaven.com">hello@yourbluehaven.com</Link>.
+          </p>
+        </section>
       </main>
       <Footer />
     </>

@@ -3,8 +3,12 @@
 @import './utils.scss';
 
 body {
-  background-color: #333;
+  background-color: rgb(0, 30, 60);
   color: #cdcdcd;
+}
+
+a {
+  color: rgb(102, 178, 255);
 }
 
 .main {

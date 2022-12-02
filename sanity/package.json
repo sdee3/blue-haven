@@ -1,27 +1,13 @@
 {
-  "name": "sanity",
-  "private": true,
-  "version": "1.0.0",
-  "description": "",
-  "main": "package.json",
   "author": "Stefan Djokic <stefd996@gmail.com>",
-  "license": "UNLICENSED",
-  "scripts": {
-    "start": "npx @sanity/cli start",
-    "deploy": "npx @sanity/cli deploy",
-    "build": "npx @sanity/cli build"
-  },
-  "keywords": [
-    "sanity"
-  ],
   "dependencies": {
-    "@sanity/base": "^2.35.0",
+    "@sanity/base": "^2.35.2",
     "@sanity/core": "^2.35.0",
-    "@sanity/default-layout": "^2.35.0",
-    "@sanity/default-login": "^2.35.0",
-    "@sanity/desk-tool": "^2.35.1",
-    "@sanity/eslint-config-studio": "^2.0.0",
-    "@sanity/vision": "^2.35.0",
+    "@sanity/default-layout": "^2.35.2",
+    "@sanity/default-login": "^2.35.2",
+    "@sanity/desk-tool": "^2.35.2",
+    "@sanity/eslint-config-studio": "^2.0.1",
+    "@sanity/vision": "^2.35.2",
     "eslint": "^8.6.0",
     "prop-types": "^15.7",
     "react": "^17.0",
@@ -29,9 +15,23 @@
     "sanity-plugin-markdown": "^2.1.1",
     "styled-components": "^5.2.0"
   },
+  "description": "",
   "devDependencies": {},
+  "keywords": [
+    "sanity"
+  ],
+  "license": "UNLICENSED",
+  "main": "package.json",
+  "name": "sanity",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git@github.com:sdee3/blue-haven.git"
-  }
+  },
+  "scripts": {
+    "build": "npx @sanity/cli build",
+    "deploy": "npx @sanity/cli deploy",
+    "start": "npx @sanity/cli start"
+  },
+  "version": "1.0.0"
 }
